@@ -2,8 +2,8 @@
 
 制作首页App组件
 
-1. 完成 Header 区域，使用的是Mint-UI组件
-2. 制作底部的 Tabbarr 区域，使用的是MUI组件
+1. 完成 Header 区域，使用的是Mint-UI中的Header组件
+2. 制作底部的 Tabbarr 区域，使用的是MUI的Tabber组件
     + 在制作样式图标时，注意引入css扩展库与字体文件
 3. 要在中间区域放置一个 router-view
 改造 Tabbar 为 router-link
