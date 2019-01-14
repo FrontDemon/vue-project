@@ -107,6 +107,11 @@
       addToShopCar(){
         //添加到购物车
         this.ballFlag = !this.ballFlag;
+        //{ id:商品id, count:购买数量, price:商品单价, selected:true或false }
+        var goodsinfo = { id:this.id, count:this.selectedCount, price:this.goodsinfo.sell_price, selected:true };
+
+        //调用store中的mutations将商品加入购物车
+        this.$store.commit('addToCar',goodsinfo);
       },
       beforeEnter(el){
         el.style.transform = "translate(0,0)";
