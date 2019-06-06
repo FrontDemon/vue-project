@@ -1,4 +1,4 @@
-流程
+流程（有用的话记得给个star哈，谢谢啦）
 
 制作首页App组件
 1. 完成 Header 区域，使用的是Mint-UI中的Header组件
